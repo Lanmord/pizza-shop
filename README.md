@@ -24,7 +24,7 @@ NODEMAILER_PASS= [Пароль E-mail]
 
 Чтобы войти в админ-панель
 
-1. Cоздайте администратора, с использованием POST запроса (http://localhost:[порт backend]/admins/register) передав username и password.
+1. Cоздайте администратора, с использованием POST запроса <http://localhost:[порт backend]/admins/register> передав username и password.
    Например:
 
 ```
@@ -34,4 +34,4 @@ NODEMAILER_PASS= [Пароль E-mail]
 }
 ```
 
-2. Страница для входа в админ-панель (http://localhost:3000/admin)
+2. Страница для входа в админ-панель <http://localhost:3000/admin>
