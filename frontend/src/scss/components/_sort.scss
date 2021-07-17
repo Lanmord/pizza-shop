@@ -1,0 +1,26 @@
+@import '../variables';
+
+.sort {
+  z-index: 5;
+  position: relative;
+  display: flex;
+  align-items: center;
+  span {
+    margin-right: 20px;
+  }
+  ul {
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+    li {
+      padding: 15px 20px;
+      cursor: pointer;
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.035);
+      }
+      &.active {
+        color: $newcolor;
+      }
+    }
+  }
+}
