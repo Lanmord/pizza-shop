@@ -35,3 +35,5 @@ NODEMAILER_PASS= [Пароль E-mail]
 ```
 
 2. Страница для входа в админ-панель <http://localhost:3000/admin>
+
+[someLabel](/repository/relative/link.txt)
